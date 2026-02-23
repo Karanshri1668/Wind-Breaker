@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <h2>Wind Breaker</h2>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+        </nav>
+    </header>
+    <section class="page1">
+<h1 class="animate__animated animate__backInDown">
+    SAKURA
+</h1>        <img src="image/sakura-removebg-preview.png" class="animate__animated animate__fadeIn" alt="sakura">
+    </section>
+
+    <section class="page2">
+    <div class="page2-content">
+
+        <div class="text"
+             data-aos="fade-right"
+             data-aos-duration="1200">
+            <h2>Haruka Sakura</h2>
+            <p>
+                A first-year student of Furin High. 
+                Strong, independent, and determined to reach the top.
+                He fights not for fame, but for respect.
+            </p>
+        </div>
+
+        <div class="img-wrapper"
+     data-aos="fade-left"
+     data-aos-duration="1200"
+     data-aos-delay="200">
+
+    <div class="glow"></div>
+
+    <img src="image/3.png"
+         alt="Sakura"
+         class="page2-img">
+
+</div>
+             
+    </div>
+</section>
+
+<!-- Page 3 -->
+<section class="page3">
+  <div class="bg-glow" id="bgGlow"></div>
+
+  <div class="character-wrapper">
+
+    <div class="character-image">
+      <img id="charImg" src="image/sakura.png">
+    </div>
+
+    <div class="character-stats">
+      <h2 id="charName"></h2>
+
+      <div class="circle">
+        <svg>
+          <circle cx="60" cy="60" r="50"></circle>
+          <circle cx="60" cy="60" r="50" class="progress" id="strengthCircle"></circle>
+        </svg>
+        <div class="number" id="strengthNum">0</div>
+        <p>Strength</p>
+      </div>
+
+      <div class="circle">
+        <svg>
+          <circle cx="60" cy="60" r="50"></circle>
+          <circle cx="60" cy="60" r="50" class="progress" id="speedCircle"></circle>
+        </svg>
+        <div class="number" id="speedNum">0</div>
+        <p>Speed</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="controls">
+    <button id="prev">←</button>
+    <button id="next">→</button>
+  </div>
+</section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
