@@ -4,7 +4,7 @@ A cinematic, animated character showcase website inspired by Wind Breaker.
 This project focuses on modern UI design, smooth animations, glowing effects, and interactive character stats.
 
 🎬 Live Preview
-https://yourusername.github.io/Wind-Breaker/
+https://karanshri1668.github.io/Wind-Breaker/
 
 📌 Features
 🔥 Page 1 – Cinematic Intro
@@ -57,7 +57,7 @@ Clean alignment and spacing
 
 🚀 How to Run Locally
 Clone the repository:
-git clone https://github.com/yourusername/Wind-Breaker.git
+git clone https://github.com/karanshri1668.github.io/Wind-Breaker.git
 Open the folder
 Run index.html in your browser
 No build tools required.
